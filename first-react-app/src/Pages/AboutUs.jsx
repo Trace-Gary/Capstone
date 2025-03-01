@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AboutPage() {
+function AboutUs() {
   return (
     <main>
       <header>
@@ -26,4 +26,4 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default AboutUs;

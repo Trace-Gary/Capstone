@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+
+
+.faster-one-regular {
+    font-family: "Faster One", serif;
+    font-weight: 00;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    top: 10;
+    padding: 30px;
+    color: white;
+}
+
+.title-img-container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(./images/Jersey\ Image1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Footer */
+
+.footer ul {
+    list-style-type: none;
+    background-color: whitesmoke;
+    padding: 0px;
+    margin: -8px;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer li {
+    display: block;
+}
+
+
+.footer a {
+    color: rgb(17, 3, 3);
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+}
+
+.sponsors {
+    flex: 1 0 17rem;
+    padding: .7rem;
+    border-bottom: .1rem solid white;
+    position: relative;
+}
+
+
+
+/* Navbar */
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsla(41, 78%, 45%, 0.589);
+    padding: 0px;
+    margin: -8px;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: rgb(17, 3, 3);
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+}
+
+
+.navbar a:hover {
+    background-color: rgb(173, 199, 81);
+}
+
+.navbar li {
+    float: left;
+}
+
+
+
+
+
+/* Log in box */
+
+.signup-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 75vh; /* Full viewport height */
+}
+
+
+.signup-section {
+    background-color: hsla(128, 82%, 43%, 0.493);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Prevents it from being too wide */
+    width: 90%; /* Makes it responsive */
+}
+
+.signup-section h2 {
+    text-align: center;
+}
+  
+.message-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.signup-button {
+    background-color: hsl(202, 83%, 47%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.signup-button:hover {
+    background-color: hsla(199, 72%, 21%, 0.973);
+}
+
+
+
+/* Table Styling */
+
+.theading {
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #0073e6;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+
+/* Sorting Buttons */
+.filter-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-select {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    gap: 10px; /* Adds space between buttons */
+    margin-top: 50px; /* Adds space from the top */
+    max-width: 500px;
+    align-items: center;
+}
+
+
+/* Card styling */
+
+.sorting-container{
+    background-color: rgb(206, 54, 54);
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px
+}
+
+.dropdown button{
+    background-color: white;
+    border-radius: 4px;
+}
+
+.dropdown:hover button {
+    background-color: hsl(0, 0%, 75%);
+}
+
+
+.dropdown a {
+    display: block;
+    color: green;
+    text-decoration: none;
+    padding:  10px 15px;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.25);
+}
+
+.dropdown:hover .content {
+    background-color: bisque;
+    display: block;
+}
+
+
+
+.dropdown a:hover {
+    background-color: aquamarine;
+}
+
+
+.container {
+    margin-top: 200px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+
+.card:hover {
+    transform: scale(1.1); /* Enlarges the card */
+  }
+
+
+
+.price {
+    position: absolute;
+    bottom: 15px;  /* Moves it slightly higher */
+    right: 30px;   /* Moves it more to the left */
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745; /* Green color for price */
+}
+
+
+
+/* About us Page */
+
+.aboutpg-container {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutpg-image {
+    width: 220px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.aboutpg-content {
+    padding-left: 20px;
+}
+
+.top-header {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.story {
+    line-height: 1.6;
+}
+
+
+
+.filters { 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    padding: 30px;
+}
+
+
+
+  
+/* Contact Us Page */ 
+  
+.contact-section, .message-section {
+    padding: 20px;
+    text-align: center;
+}
+  
+.contact-section h2, .message-section h2 {
+    color: hsl(128, 100%, 20%);
+}
+  
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+  
+.contact-card {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+  
+.contact-card h3 {
+    color: hsl(128, 100%, 20%);
+}
+  
+.contact-card a {
+    color: hsl(128, 100%, 20%);
+    text-decoration: none;
+}
+  
+
+.message-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.message-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.submit-button {
+    background-color: hsl(128, 100%, 20%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.submit-button:hover {
+    background-color: hsla(106, 78%, 41%, 0.973);
+}
+/* end of contact css*/
+
