@@ -5,6 +5,8 @@ import HomePage from './Pages/HomePage';
 // import AboutUs from './Pages/AboutUs';
 // import ContactUs from './Pages/ContactUs';
 // import RoutesComponent from './routes/routes';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 
@@ -13,10 +15,12 @@ import HomePage from './Pages/HomePage';
 const App = () => {
   return (
     <div className="App">
+      <Header/>
     <HomePage/>
     {/* <ShopPage/>
     <AboutUs/>
     <ContactUs/> */}
+    <Footer/>
     </div>
   );
 };
