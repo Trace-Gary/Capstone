@@ -8,11 +8,7 @@ import Footer from './Footer';
 const ContactUs = () => {
   return (
     <div>
-      <Header />
-      <Navbar />
-      <ContactInfo />
-      <MessageForm />
-      <Footer />
+
     </div>
   );
 };

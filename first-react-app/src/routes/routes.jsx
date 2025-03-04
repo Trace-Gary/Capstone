@@ -1,4 +1,5 @@
-import { Route, Routes } from "react router dom";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import ShopPage from "./Pages/ShopPage";
 import AboutUs from "./Pages/AboutUs";
@@ -7,7 +8,7 @@ import ContactUs from "./Pages/ContactUs";
 
 
 
-export default function ContentRoutes(props) {
+const RoutesComponent = () => {
     return (
         <Routes>
             <Route path="/" element={<HomePage />} />
@@ -15,5 +16,7 @@ export default function ContentRoutes(props) {
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<ContactUs />} />
         </Routes>
-    )
-}
+    );
+};
+
+export default RoutesComponent;
