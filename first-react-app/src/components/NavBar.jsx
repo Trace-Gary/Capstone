@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Navbar = () => {
   return (
     <header>
       <div className="title-img-container">
@@ -27,4 +27,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

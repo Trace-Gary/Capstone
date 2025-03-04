@@ -4,6 +4,8 @@ import HomePage from './Pages/HomePage';
 import ShopPage from './Pages/ShopPage';
 import AboutUs from './Pages/AboutUs';
 import ContactUs from './Pages/ContactUs';
+import ContentRoutes from './contents/contentroutes';
+
 
 
 
