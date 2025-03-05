@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from './Header';
-import Navbar from './Navbar';
-import ContactInfo from './ContactInfo';
-import MessageForm from './MessageForm';
-import Footer from './Footer';
+import ContactInfo from '../components/ContactInfo'
+import MessageForm from '../components/MessageForm';
+import MessageSection from '../components/MessageSection';
+
 
 const ContactUs = () => {
   return (
     <div>
-
+      <ContactInfo/>
+      <MessageSection/>
     </div>
   );
 };

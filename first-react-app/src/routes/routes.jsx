@@ -1,9 +1,10 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import HomePage from "./Pages/HomePage";
-import ShopPage from "./Pages/ShopPage";
-import AboutUs from "./Pages/AboutUs";
-import ContactUs from "./Pages/ContactUs";
+// import { Routes, Route } from "react-router-dom";
+import HomePage from "../Pages/HomePage.jsx";
+import ShopPage from "../Pages/ShopPage";
+import AboutUs from "../Pages/AboutUs";
+import ContactUs from "../Pages/ContactUs";
+import { Routes, Route } from 'react-router-dom';
 
 
 

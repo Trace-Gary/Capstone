@@ -64,14 +64,14 @@
 
 
 .navbar ul{
-    list-style-type: none;
-    background-color: hsla(41, 78%, 45%, 0.589);
-    padding: 0px;
-    margin: -8px;
-    overflow: hidden; 
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  list-style-type: none;
+  background-color: hsla(41, 78%, 45%, 0.589);
+  padding: 0px;
+  margin-top: -8px;
+  overflow: hidden; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar a {
